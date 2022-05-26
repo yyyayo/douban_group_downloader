@@ -1,0 +1,18 @@
+{
+	"userinfo":
+		{
+			"username": "xxx",
+			"password": "xxx"
+		},
+	"grouplist":
+		[
+			{
+				"groupid": "xxx",
+				"groupname": "xxx"
+			},
+			{
+				"groupid": "xxx",
+				"groupname": "xxx"
+			}
+		]
+}
