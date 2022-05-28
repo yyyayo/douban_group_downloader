@@ -86,7 +86,7 @@ def save_discussions(ss, ua_headers, groupid, groupname, discussion_urls):
     index = 1
     for discussion_url in discussion_urls:
         print("[{}/{}]保存帖子：{}".format(index, len(discussion_urls), discussion_url['title']))
-        post_dir = os.path.join(group_dir, discussion_url['title'])
+        post_dir = os.path.join(group_dir, discussion_url['title'].replace("/", "_"))
         if not os.path.exists(post_dir):
             os.mkdir(post_dir)
         discussion_url_link = discussion_url['link']
